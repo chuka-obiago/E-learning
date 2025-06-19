@@ -4,7 +4,7 @@
 
 ---
 
-![Home Page Screenshot](./elearn-landing.PNG)
+![Home Page Screenshot](./screenshots/elearn-landing.PNG)
 
 ---
 
