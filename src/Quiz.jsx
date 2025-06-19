@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Navbar from './components/navbar.jsx'; // Corrected import path for Navbar.jsx
+import Navbar from './components/Navbar.jsx'; // Corrected import path for Navbar.jsx
 
 const Quiz = () => {
   // State to store user's selected answers for each question

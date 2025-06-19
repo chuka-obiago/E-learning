@@ -31,8 +31,8 @@ const Navbar = ({ activePage = 'Home' }) => {
   
   const navItems = [
     { name: 'Home', to: '/' },       
-    { name: 'Learn', to: '/learn' }, 
-    { name: 'Quiz', to: '/quiz' },   
+    { name: 'Learn', to: '/Learn' }, 
+    { name: 'Quiz', to: '/Quiz' },   
   ];
 
   return (

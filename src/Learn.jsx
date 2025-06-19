@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react'; // Import useRef
-import Navbar from './components/navbar.jsx'; // Corrected import path for Navbar.jsx
+import Navbar from './components/Navbar.jsx'; // Corrected import path for Navbar.jsx
 
 const Learn = () => {
   // State to manage the visibility of output for code snippets
