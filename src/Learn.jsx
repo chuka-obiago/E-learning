@@ -296,7 +296,7 @@ if (temperature > 30) {
   ];
 
   return (
-    // Main container for the Learn page, consistent with Home.jsx light theme
+    // Main container for the Learn page
     <div className="min-h-screen bg-gray-50 text-gray-900 font-inter pt-16"> {/* pt-16 for navbar spacing */}
       <Navbar activePage="Learn" /> {/* Highlight 'Learn' in the Navbar */}
 
@@ -360,7 +360,7 @@ if (temperature > 30) {
                         {showCodeOutput[lesson.key] && (
                           <div className="mt-6 p-4 bg-blue-50 text-gray-800 border border-blue-200 rounded-md shadow-inner transition-all duration-300 ease-in-out transform scale-y-100 origin-top">
                             <h4 className="text-xl font-semibold mb-2 text-blue-700">Expected Output:</h4>
-                            {/* Dangerously set inner HTML for actual HTML/CSS/JS output simulation */}
+                            {/* Set inner HTML for actual HTML/CSS/JS output simulation */}
                             <div dangerouslySetInnerHTML={{ __html: lesson.output }} />
                           </div>
                         )}
@@ -411,9 +411,9 @@ if (temperature > 30) {
         </div>
       </div>
 
-      {/* Footer - Copied from Home.jsx */}
+      {/* Footer */}
       <footer className="py-8 px-4 sm:px-8 bg-gray-200 text-gray-800 text-center text-sm rounded-t-lg shadow-inner mt-16">
-        <p>Copyright © 2025 . E-learning Platform</p>
+        <p> © 2025 . E-learning Platform</p>
       </footer>
     </div>
   );
