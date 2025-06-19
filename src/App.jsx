@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './home.jsx'; 
-import Learn from './learn.jsx'; 
+import Home from './Home.jsx'; 
+import Learn from './Learn.jsx'; 
 import Quiz from './Quiz.jsx';   
 import ScrollToTop from './ScrollToTop.jsx'; 
 

@@ -388,7 +388,7 @@ const Quiz = () => {
         )}
       </div>
 
-      {/* Footer - Copied from Home.jsx */}
+      {/* Footer */}
       <footer className="py-8 px-4 sm:px-8 bg-gray-200 text-gray-800 text-center text-sm rounded-t-lg shadow-inner mt-16">
         <p> © 2025 . E-learning Platform</p>
       </footer>
